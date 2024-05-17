@@ -6,7 +6,5 @@ Une documentation détaillée du code est présente sous format PDF ainsi que su
 
 ## Sommaire
 
-[h1]
 1. Problème du voyageur de commerce : TSP
 2. Vehicule Routing Problem : VRP
-[/h1]
