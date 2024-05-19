@@ -1,6 +1,6 @@
 import tkinter as tk
 from TSP.TSP import TSP
-from VRP.VRP import VRP
+from VRP.VRP import VRPApp
 
 def run_TSP():
     root.destroy()
@@ -8,7 +8,8 @@ def run_TSP():
 
 def run_VRP():
     root.destroy()
-    VRP()
+    app = VRPApp()
+    app.mainloop()
 
 root = tk.Tk()
 root.title("Programme de résolution VRP-TSP")
